@@ -1,0 +1,18 @@
+{
+  "name": "cor-thermostat-controller",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless thermostat controller for Cor Thermostat (now Ecobee)",
+  "scripts": {
+    "lint": "eslint ./src/**/*.js --max-warnings=0"
+  },
+  "author": "alexl8819",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "debug": "^4.3.4",
+    "eslint": "^8.48.0"
+  }
+}
