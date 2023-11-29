@@ -35,6 +35,6 @@ exports.switchMode = (mode) => async (driver) => {
   await driver.sleep(2000);
   const closeSubmodal = await driver.wait(until.elementLocated(By.css('.close-panel')), 10000);
   await closeSubmodal.click();
-  await driver.sleep(2000);
+  await driver.sleep(5000);
   debug('Closed out system modal');
 };
